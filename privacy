@@ -1,0 +1,65 @@
+
+      <h2>1. Données traitées</h2>
+      <p>Tetricat ne demande pas la création d’un compte et ne collecte pas directement votre nom, votre adresse e-mail, vos contacts, votre position précise, vos photos ou vos fichiers.</p>
+      <p>Le score et les réglages du jeu peuvent être enregistrés localement sur votre appareil afin de faire fonctionner le jeu. Ces données ne sont pas envoyées par Tetricat à son éditeur.</p>
+
+      <h2>2. Publicités</h2>
+      <p>La version gratuite de Tetricat peut afficher des publicités via Google AdMob. Google et ses partenaires peuvent traiter des informations techniques, des identifiants publicitaires et des données d’utilisation afin de proposer, mesurer et sécuriser les publicités, conformément à leurs propres règles de confidentialité.</p>
+      <p>Vous pouvez consulter les règles de Google ici : <a href="https://policies.google.com/privacy?hl=fr" target="_blank" rel="noopener">Règles de confidentialité Google</a>.</p>
+
+      <h2>3. Achats intégrés</h2>
+      <p>Tetricat propose des achats intégrés facultatifs, notamment la suppression des publicités et des packs de musique. Les paiements sont traités par Google Play. Tetricat n’a pas accès à vos informations bancaires.</p>
+
+      <h2>4. Partage</h2>
+      <p>La fonction de partage de score utilise les options de partage disponibles sur votre appareil. Tetricat ne reçoit pas le contenu que vous choisissez de partager.</p>
+
+      <h2>5. Vos choix</h2>
+      <p>Vous pouvez désactiver la musique ou les vibrations dans les réglages du jeu. Vous pouvez aussi réinitialiser les données locales de Tetricat en supprimant les données de l’application depuis les réglages de votre appareil.</p>
+
+      <h2>6. Enfants</h2>
+      <p>Tetricat n’est pas conçu pour collecter sciemment des données personnelles auprès d’enfants. Les publicités et leurs paramètres sont gérés conformément aux règles applicables de Google.</p>
+
+      <h2>7. Contact</h2>
+      <p>Pour toute question concernant cette politique, contactez-nous à : <strong>REMPLACE_PAR_TON_EMAIL_DE_CONTACT</strong></p>
+      <p class="notice">Avant publication, remplace ce texte par une vraie adresse e-mail de contact.</p>
+    </section>
+
+    <section id="en" hidden>
+      <h1>TETRICAT</h1>
+      <p class="subtitle">Privacy Policy</p>
+      <p class="updated">Last updated: July 29, 2026</p>
+      <p>This policy explains how the mobile game <strong>Tetricat</strong> handles information related to its use.</p>
+
+      <h2>1. Data handled</h2>
+      <p>Tetricat does not require an account and does not directly collect your name, email address, contacts, precise location, photos, or files.</p>
+      <p>Game scores and settings may be stored locally on your device so the game can work. Tetricat does not send this data to its publisher.</p>
+
+      <h2>2. Advertising</h2>
+      <p>The free version of Tetricat may display ads through Google AdMob. Google and its partners may process technical information, advertising identifiers, and usage data to provide, measure, and secure ads, under their own privacy policies.</p>
+      <p>Read Google’s Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+
+      <h2>3. In-app purchases</h2>
+      <p>Tetricat offers optional in-app purchases, including ad removal and music packs. Payments are processed by Google Play. Tetricat does not access your banking information.</p>
+
+      <h2>4. Sharing</h2>
+      <p>The score sharing feature uses the sharing options available on your device. Tetricat does not receive the content you choose to share.</p>
+
+      <h2>5. Your choices</h2>
+      <p>You can turn off music or vibration in the game settings. You can also reset Tetricat’s local data by deleting the app’s data from your device settings.</p>
+
+      <h2>6. Children</h2>
+      <p>Tetricat is not designed to knowingly collect personal data from children. Ads and their settings are managed in accordance with applicable Google policies.</p>
+
+      <h2>7. Contact</h2>
+      <p>For questions about this policy, contact us at: <strong>REPLACE_WITH_YOUR_CONTACT_EMAIL</strong></p>
+      <p class="notice">Before publishing, replace this text with a real contact email address.</p>
+    </section>
+  </main>
+  <script>
+    const fr = document.getElementById('fr'), en = document.getElementById('en');
+    const frButton = document.getElementById('frButton'), enButton = document.getElementById('enButton');
+    frButton.onclick = () => { fr.hidden = false; en.hidden = true; frButton.className = ''; enButton.className = 'secondary'; document.documentElement.lang = 'fr'; };
+    enButton.onclick = () => { fr.hidden = true; en.hidden = false; frButton.className = 'secondary'; enButton.className = ''; document.documentElement.lang = 'en'; };
+  </script>
+</body>
+</html>
